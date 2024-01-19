@@ -1,0 +1,58 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+  @font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/playfair-regular.woff2') format('woff2'),
+       url('/fonts/playfair-regular.woff') format('woff');
+  }
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+.glassmorphic-link:hover, header:hover {
+    backdrop-filter: blur(4rem);
+    border: 0rem solid rgba(300, 300, 300, 0);
+    border-radius: 1rem;
+    padding: 1rem;
+    position: fixed;
+    transition: 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .glassmorphic-link:hover , header:hover{
+    background: rgba(113, 110, 110, 0.12);
+    color: #aea5a5;
+    position: fixed;
+  }
+  
+  .banner {
+    width: 100%; 
+    max-width: 100%; 
+  }
+  
+  .banner-content {
+    max-width: 100%;
+  }
+  
+  .banner img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    max-width: 100%; 
+  }
+  header {
+    list-style: none;
+    backdrop-filter: blur(4rem);
+    border: 0rem solid rgba(300, 300, 300, 0);
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    transition: 0.3s ease-in-out, color 0.3s ease-in-out;
+    position: fixed;
+  }
+  .custom-list-style {
+    list-style: none;
+    margin: 50px; 
+  }
