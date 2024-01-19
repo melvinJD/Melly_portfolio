@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "eslint": "^8.56.0",
+    "framer-motion": "^10.18.0",
+    "react-vertical-timeline-component": "^3.6.0",
     "typescript": "^5.3.3"
   }
 }

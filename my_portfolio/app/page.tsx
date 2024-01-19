@@ -1,10 +1,10 @@
 'use client';
   import React from "react";
-  import Intro from '../compontents/intro';
-  import About from "../compontents/about";
-  import Project from "../compontents/project";
-  import Experience from "../compontents/experience"; 
-  import Skills from "../compontents/skills";
+  import Intro from '../components/intro';
+  import About from "../components/about";
+  import Project from "../components/project";
+  import Experience from "../components/experience"; 
+  import Skills from "../components/skills";
   import './global.css';
   import { Playfair } from "next/font/google";
 
