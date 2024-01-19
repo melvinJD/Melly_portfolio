@@ -25,3 +25,18 @@ export default function Intro() {
           <a
             className="bg-dark grey bg-opacity-50 border border-white border-opacity-50 shadow-lg rounded-lg backdrop-blur-sm p-4"
             href="public/Melissa_Thornley_Developer_CV.pdf"
+            download
+            >
+              Download CV
+            </a>
+            <a
+              className="bg-dark grey bg-opacity-50 border border-white border-opacity-50 shadow-lg rounded-lg backdrop-blur-sm p-4"
+              href="#contact"
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+      </section>
+    );
+  }

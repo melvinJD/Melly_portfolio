@@ -1,4 +1,4 @@
-/ active-section-context.tsx
+// active-section-context.tsx
 'use client';
 import React, { useState, createContext, useContext } from 'react';
 import type { SectionName } from '../lib/types';

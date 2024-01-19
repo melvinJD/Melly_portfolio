@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import SectionHeading from "..//compontents/section-header";
+import SectionHeading from "..//components/section-header";
 import { skillsData } from "../lib/data";
 import { useSectionInView } from "../lib/hooks";
 import { motion } from "framer-motion";
