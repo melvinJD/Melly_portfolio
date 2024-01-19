@@ -7,14 +7,16 @@
   import Skills from "../components/skills";
   import './global.css';
   import { Playfair } from "next/font/google";
+  import FramerMotionWrapper from '../components/framer-motion-wrapper';
 
-  import { ActiveSectionContextProvider } from "../context/active-section-context";
+
+  import { ActiveSectionContext } from "../context/active-section-context";
 
 
   const Home = () => {
     return (
-      
-      <ActiveSectionContextProvider> 
+      <FramerMotionWrapper>
+      <ActiveSectionContext>
         <main className="flex flex-col items-center justify-center space-y-10 mx-auto">
         <Intro/> 
         <div className="mt-8"></div>
@@ -27,7 +29,8 @@
         <Experience />
         <div className="mt-8"></div>
       </main>
-      </ActiveSectionContextProvider>
+      </ActiveSectionContext>
+      </FramerMotionWrapper>
     );
   };
 
