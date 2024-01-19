@@ -1,7 +1,7 @@
-import Header from '../compontents/header';
+import Header from '../components/header';
 // import Footer from '../compontents/footer';
 import { ActiveSectionContextProvider } from '../context/active-section-context';
-import ThemeSwitch from '../compontents/theme-switch';
+import ThemeSwitch from '../components/theme-switch';
 import ThemeContextProvider from '../context/theme-context';
 import './global.css';
 
